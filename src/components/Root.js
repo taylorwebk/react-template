@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
-
+import img1 from './fuck.jpg'
+import './styles.css'
 class Root extends Component {
   render () {
     return (
       <div>
-        <h1>HELLO WORLD DESDE REACT</h1>
-        <p>Full Stack Group</p>
+        <img src={img1} />
+        <h1>HELLO FUCKING WORLD...!!</h1>
+        <p>Mirenme todo estoy usando React con webpack + ES6 + JSX...!!</p>
+        <p>Felicidades, ahora puedes ir a por una cerveza.</p>
       </div>
     )
   }

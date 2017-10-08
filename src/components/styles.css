@@ -1,0 +1,18 @@
+body {
+  background-color: #ddf;
+}
+div {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 300px;
+}
+p {
+  font-size: 20px;
+  color: #444;
+}
+h1 {
+  color: #4565ed;
+}
