@@ -1,10 +1,15 @@
 import React, { Component } from 'react'
-import {Container, Header} from 'semantic-ui-react'
+import {Container, Header, Icon} from 'semantic-ui-react'
 class Root extends Component {
   render () {
     return (
       <Container textAlign='center'>
-        <Header as='h1'>Hello World</Header>
+        <Header color='teal' as='h1' icon>
+          <Icon name='heart' color='red' />
+          <Header.Content>
+            I love {'<React />'}....!!!
+          </Header.Content>
+        </Header>
       </Container>
     )
   }
