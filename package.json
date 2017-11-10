@@ -1,7 +1,7 @@
 {
   "name": "prueba",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple, but Powerful React Js Hello world..",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,7 +18,7 @@
     ]
   },
   "keywords": [],
-  "author": "",
+  "author": "taylorwebk",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
