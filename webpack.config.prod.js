@@ -26,7 +26,7 @@ module.exports = {
       })
     },
     {
-      test: /\.ttf(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+      test: /\.(ttf|woff|woff2|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
       loader: 'file-loader'
     },
     {
