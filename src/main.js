@@ -1,10 +1,20 @@
 import React from 'react'
 import {render} from 'react-dom'
+import {Container, Header, Icon} from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
-import './css/main.css'
-import Root from './components/Root'
 
+const Hello = () => (
+  <Container textAlign='center'>
+    <Header as='h1' icon>
+      <Icon name='heart' color='red' />
+      Hola mundo desde React
+      <Header.Subheader>
+        Plantilla para iniciar tus proyectos con React JS
+      </Header.Subheader>
+    </Header>
+  </Container>
+)
 render(
-  <Root />,
+  <Hello />,
   document.getElementById('app')
 )
